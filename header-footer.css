@@ -1,0 +1,146 @@
+.first-header {
+    max-width: 100%;
+    height: 45px;
+    background-color:var(--color-gold);
+}
+.first-header .container {
+    max-width: 1110px;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-header .container a {
+    color: var(--color-white);
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+.first-header .container .lang a {
+    padding-right: 10px;
+    opacity: 50%;
+}
+.first-header .container .lang a:hover,
+.first-header .container .lang a.active {
+    opacity: 100%;
+}
+
+
+
+
+.second-header {
+    max-width: 100%;
+    height: 100px;
+    background-color: var(--color-dark);
+}
+.second-header .container {
+    max-width: 1110px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-header .container .left-container {
+    display: flex;
+}
+.second-header .container .left-container .line {
+    width: 1px;
+    height: 46px;
+    background-color: var(--color-white-grey);
+    margin: 0 30px;
+}
+.second-header .container .left-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-header .container .left-container a .svg-color {
+    transition: 0.4s;
+}
+.second-header .container .left-container a:hover .svg-color {
+    fill: var(--color-gold);
+    transition: 0.4s;
+}
+.second-header .container .left-container a span {
+    color: var(--color-white);
+    font-size: 0.875rem;
+    font-weight: 400;
+    padding-left: 10px;
+    letter-spacing: 0.7px;
+    transition: 0.4s;
+}
+.second-header .container .left-container a:hover span {
+    color: var(--color-gold);
+    transition: 0.4s;
+}
+.second-header .container .right-container nav ul {
+    display: flex;
+}
+.second-header .container .right-container nav ul li {
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.second-header .container .right-container nav ul li a {
+    font-size: 0.875rem;
+    letter-spacing: 0.7px;
+    color: var(--color-white);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+.second-header .container .right-container nav ul li a:hover {
+    color: var(--color-gold);
+    transition: 0.4s;
+}
+
+
+
+
+footer {
+    width: 100%;
+    height: 161px;
+    background-color: var(--color-gold);
+}
+footer .container {
+    width: 1110px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+footer .container .address-mail {
+    padding-left: 30px;
+    padding-right: 89px;
+}
+footer .container .address-mail span {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--color-white-grey);
+    padding-bottom: 10px;
+    opacity: 0.8;
+}
+footer .container .address-mail a {
+    font-size: 0.875rem;
+    color: var(--color-dark);
+}
+footer .container .address-tel a {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--color-white-grey);
+    padding-right: 250px;
+}
+footer .container .address-tel .padding {
+    padding-bottom: 10px;
+}
+footer .container .copyright {
+    font-size: 0.875rem;
+    color: var(--color-dark);
+    text-decoration:underline;
+    padding-top: 88px;
+    padding-bottom: 60px;
+}
